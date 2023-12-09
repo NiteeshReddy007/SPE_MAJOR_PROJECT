@@ -26,7 +26,7 @@ export default function Login() {
   const handleChange = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value });
   };
-
+  
   const validateForm = () => {
     const { username, password } = values;
     if (username === "") {
@@ -43,6 +43,7 @@ export default function Login() {
     event.preventDefault();
     if (validateForm()) {
       const { username, password } = values;
+      console.log(loginRoute)
       const { data } = await axios.post(loginRoute, {
         username,
         password,

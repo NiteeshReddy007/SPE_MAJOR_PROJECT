@@ -44,7 +44,9 @@ export default function SetAvatar() {
         localStorage.setItem(
           process.env.REACT_APP_LOCALHOST_KEY,
           JSON.stringify(user)
-        );
+          
+        );  
+        console.log("Hello vivek");
         navigate("/");
       } else {
         toast.error("Error setting avatar. Please try again.", toastOptions);

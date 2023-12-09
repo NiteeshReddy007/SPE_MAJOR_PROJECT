@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import { useNavigate, Link } from "react-router-dom";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { loginRoute } from "../utils/APIRoutes";
@@ -26,7 +26,7 @@ export default function Login() {
   const handleChange = (event) => {
     setValues({ ...values, [event.target.name]: event.target.value });
   };
-  
+
   const validateForm = () => {
     const { username, password } = values;
     if (username === "") {
@@ -43,7 +43,6 @@ export default function Login() {
     event.preventDefault();
     if (validateForm()) {
       const { username, password } = values;
-      console.log(loginRoute)
       const { data } = await axios.post(loginRoute, {
         username,
         password,
@@ -102,7 +101,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: #ffefd5;  //full background
   .brand {
     display: flex;
     align-items: center;
@@ -121,25 +120,25 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
+    background-color: #5f9ea0;  //smallbox 00000076
     border-radius: 2rem;
     padding: 5rem;
   }
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid #000000;  //border box
     border-radius: 0.4rem;
     color: white;
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #997af0;
+      border: 0.1rem solid #000000;  //997af0??
       outline: none;
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color: #7fff00;  //login box
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -149,14 +148,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: #e65100;  //??
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: #000000;   //create color
       text-decoration: none;
       font-weight: bold;
     }

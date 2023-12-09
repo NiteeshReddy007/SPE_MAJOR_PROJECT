@@ -145,7 +145,7 @@ const Container = styled.div`
     &::-webkit-scrollbar {
       width: 0.2rem;
       &-thumb {
-        background-color: #ffffff39;
+        background-color: #adff2f;  //scroll
         width: 0.1rem;
         border-radius: 1rem;
       }
@@ -168,7 +168,7 @@ const Container = styled.div`
     .sended {
       justify-content: flex-end;
       .content {
-        background-color: #4f04ff21;
+        background-color: #6495ed; //chat sent
       }
     }
     .recieved {

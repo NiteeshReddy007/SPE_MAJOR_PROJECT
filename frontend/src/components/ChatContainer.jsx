@@ -10,6 +10,7 @@ export default function ChatContainer({ currentChat, socket }) {
   const [messages, setMessages] = useState([]);
   const scrollRef = useRef();
   const [arrivalMessage, setArrivalMessage] = useState(null);
+  const [showDeletePopup, setShowDeletePopup] = useState(null);
 
   useEffect(async () => {
     const data = await JSON.parse(
@@ -69,6 +70,29 @@ export default function ChatContainer({ currentChat, socket }) {
     scrollRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
+  const handleDeleteClick = async (message) => {
+    console.log(message._id);
+    try {
+      // if (!mongoose.Types.ObjectId.isValid(message._id)) {
+      //   console.error('Invalid message ID format');
+      //   return;
+      // }
+  
+      const response = await axios.delete(`http://localhost:5002/api/messages/detmsg/${message._id}`);
+      
+      if (response.status === 200) {
+        console.log("Message deleted successfully:", message);
+        setMessages((prevMessages) =>
+          prevMessages.filter((msg) => msg._id !== message._id)
+        );
+      } else {
+        console.error("Failed to delete message:", message);
+      }  
+      setShowDeletePopup(null);
+    } catch (error) {
+      console.error("Error deleting message:", error);
+    }
+  };
   return (
     <Container>
       <div className="chat-header">
@@ -93,15 +117,24 @@ export default function ChatContainer({ currentChat, socket }) {
                 className={`message ${
                   message.fromSelf ? "sended" : "recieved"
                 }`}
+                onClick={() => setShowDeletePopup(message)}
+                onMouseLeave={() => setShowDeletePopup(null)}
               >
                 <div className="content ">
                   <p>{message.message}</p>
+                  
                 </div>
+                {showDeletePopup === message && (
+                  <button style={{color:"white", backgroundColor:"#121212", border:"none"}} onClick={() => {console.log(message);handleDeleteClick(message);}}>
+                    Delete
+                  </button>
+                )}
               </div>
             </div>
           );
         })}
       </div>
+
       <ChatInput handleSendMsg={handleSendMsg} />
     </Container>
   );

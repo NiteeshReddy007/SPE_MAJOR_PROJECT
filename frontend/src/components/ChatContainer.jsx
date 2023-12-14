@@ -78,7 +78,7 @@ export default function ChatContainer({ currentChat, socket }) {
       //   return;
       // }
   
-      const response = await axios.delete(`http://localhost:5002/api/messages/detmsg/${message._id}`);
+      const response = await axios.delete(`http://localhost:5000/api/messages/detmsg/${message._id}`);
       
       if (response.status === 200) {
         console.log("Message deleted successfully:", message);

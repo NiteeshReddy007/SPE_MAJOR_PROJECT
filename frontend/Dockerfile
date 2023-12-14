@@ -1,8 +1,8 @@
-FROM node:alpine AS build
-WORKDIR /app
+FROM node:21.4.0
+WORKDIR /
 
-COPY package*.json /app/
-RUN npm install --silent
+COPY package*.json ./
+RUN npm install 
 COPY . .
 
 EXPOSE 3000

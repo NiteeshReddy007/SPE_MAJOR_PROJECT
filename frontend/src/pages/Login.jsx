@@ -40,9 +40,10 @@ export default function Login() {
   };
 
   const handleSubmit = async (event) => {
-    event.preventDefault();
-    if (validateForm()) {
-      const { username, password } = values;
+  event.preventDefault();
+  if (validateForm()) {
+    const { username, password } = values;
+    try {
       const { data } = await axios.post(loginRoute, {
         username,
         password,
@@ -58,8 +59,13 @@ export default function Login() {
 
         navigate("/");
       }
+    } catch (error) {
+      console.error("Error in Axios request:", error);
+      toast.error("An error occurred. Please try again.", toastOptions);
     }
-  };
+  }
+};
+
 
   return (
     <>

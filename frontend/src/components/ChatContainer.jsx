@@ -16,7 +16,7 @@ export default function ChatContainer({ currentChat, socket }) {
     const data = await JSON.parse(
       localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)
     );
-    const response = await axios.post(process.env.REACT_APP_BASE_URL +recieveMessageRoute, {
+    const response = await axios.post(recieveMessageRoute, {
       from: data._id,
       to: currentChat._id,
     });
@@ -43,7 +43,7 @@ export default function ChatContainer({ currentChat, socket }) {
       from: data._id,
       msg,
     });
-    await axios.post(process.env.REACT_APP_BASE_URL +sendMessageRoute, {
+    await axios.post(sendMessageRoute, {
       from: data._id,
       to: currentChat._id,
       message: msg,
@@ -78,7 +78,7 @@ export default function ChatContainer({ currentChat, socket }) {
       //   return;
       // }
   
-      const response = await axios.delete(`http://localhost:5000/api/messages/detmsg/${message._id}`);
+      const response = await axios.delete(`http://localhost:5002/api/messages/detmsg/${message._id}`);
       
       if (response.status === 200) {
         console.log("Message deleted successfully:", message);

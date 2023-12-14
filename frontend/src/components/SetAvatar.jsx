@@ -34,7 +34,7 @@ export default function SetAvatar() {
         localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)
       );
 
-      const { data } = await axios.post(process.env.REACT_APP_BASE_URL +`${setAvatarRoute}/${user._id}`, {
+      const { data } = await axios.post(`${setAvatarRoute}/${user._id}`, {
         image: avatars[selectedAvatar],
       });
 
@@ -57,7 +57,7 @@ export default function SetAvatar() {
   useEffect(async () => {
     const data = [];
     for (let i = 0; i < 4; i++) {
-      const image = await axios.get(process.env.REACT_APP_BASE_URL +
+      const image = await axios.get(
         `${api}/${Math.round(Math.random() * 1000)}`
       );
       const buffer = new Buffer(image.data);

@@ -61,6 +61,7 @@ module.exports.deleteMessage = async (req, res, next) => {
     if (!message) {
       return res.status(404).json({ error: 'Message not found' });
     }
+    
     await Messages.findByIdAndDelete(messageId);
     logger.info('Message deleted successfully.');
     res.json({ msg: 'Message deleted successfully' });

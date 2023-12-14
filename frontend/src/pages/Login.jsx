@@ -43,7 +43,7 @@ export default function Login() {
     event.preventDefault();
     if (validateForm()) {
       const { username, password } = values;
-      const { data } = await axios.post(process.env.REACT_APP_BASE_URL +loginRoute, {
+      const { data } = await axios.post(loginRoute, {
         username,
         password,
       });

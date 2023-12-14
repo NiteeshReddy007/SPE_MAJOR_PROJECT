@@ -5,18 +5,22 @@ module.exports.login = async (req, res, next) => {
   try {
     const { username, password } = req.body;
     const user = await User.findOne({ username });
-    if (!user){
+
+    if (!user) {
       logger.info(`Login failed for username: ${username}, incorrect username or password`);
-      return res.json({ msg: "Incorrect Username or Password", status: false });
+      return res.status(400).json({ msg: "Incorrect Username or Password", status: false });
     }
+
     const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid){
+
+    if (!isPasswordValid) {
       logger.info(`Login failed for username: ${username}, incorrect username or password`);
-      return res.json({ msg: "Incorrect Username or Password", status: false });
+      return res.status(400).json({ msg: "Incorrect Username or Password", status: false });
     }
+
     delete user.password;
     logger.info(`User ${username} logged in successfully.`);
-    return res.json({ status: true, user });
+    return res.status(200).json({ status: true, user });
   } catch (ex) {
     logger.error(`Error in login: ${ex.message}`);
     next(ex);

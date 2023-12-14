@@ -1,171 +1,76 @@
-[22:37:16] [[32minfo[39m] [User likith registered successfully.]
-[22:37:30] [[32minfo[39m] [Avatar set successfully for user with ID: 65789344fae801b05701e38d]
-[22:37:30] [[32minfo[39m] [Retrieved all users successfully.]
-[22:37:32] [[32minfo[39m] [Retrieved messages successfully.]
-[22:38:21] [[32minfo[39m] [Retrieved messages successfully.]
-[22:38:23] [[32minfo[39m] [Retrieved messages successfully.]
-[22:38:41] [[32minfo[39m] [Message added successfully.]
-[22:39:09] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:39:10] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:39:10] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:39:10] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:39:11] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:39:11] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:40:24] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:04] [[32minfo[39m] [Retrieved all users successfully.]
-[22:41:13] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:14] [[32minfo[39m] [User with ID 65789344fae801b05701e38d logged out successfully.]
-[22:41:32] [[32minfo[39m] [User Rahul logged in successfully.]
-[22:41:32] [[32minfo[39m] [Retrieved all users successfully.]
-[22:41:41] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:42] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:47] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:48] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:49] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:50] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:51] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:51] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:56] [[32minfo[39m] [Retrieved messages successfully.]
-[22:41:58] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:59] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:59] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[22:41:59] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[00:27:05] [[32minfo[39m] [User with ID 6568c75d119a6646df249e36 logged out successfully.]
-[00:30:04] [[32minfo[39m] [User Rahul logged in successfully.]
-[00:30:04] [[32minfo[39m] [Retrieved all users successfully.]
-[00:30:11] [[32minfo[39m] [Retrieved messages successfully.]
-[00:32:14] [[32minfo[39m] [Retrieved messages successfully.]
-[00:32:19] [[32minfo[39m] [Retrieved messages successfully.]
-[00:32:20] [[32minfo[39m] [Retrieved messages successfully.]
-[00:35:34] [[32minfo[39m] [User with ID 6568c75d119a6646df249e36 logged out successfully.]
-[00:36:08] [[32minfo[39m] [User Rahul logged in successfully.]
-[00:36:08] [[32minfo[39m] [Retrieved all users successfully.]
-[00:36:15] [[32minfo[39m] [Retrieved messages successfully.]
-[00:36:19] [[32minfo[39m] [Message added successfully.]
-[12:36:14] [[32minfo[39m] [Retrieved all users successfully.]
-[12:36:57] [[32minfo[39m] [Retrieved all users successfully.]
-[12:38:00] [[32minfo[39m] [Retrieved all users successfully.]
-[12:38:03] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:05] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:06] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:08] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:12] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:13] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:14] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:15] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:16] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:17] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:18] [[32minfo[39m] [Retrieved messages successfully.]
-[12:38:22] [[32minfo[39m] [Retrieved all users successfully.]
-[12:38:38] [[32minfo[39m] [Retrieved messages successfully.]
-[12:39:03] [[32minfo[39m] [User with ID 6568c75d119a6646df249e36 logged out successfully.]
-[12:39:05] [[32minfo[39m] [User Rahul logged in successfully.]
-[12:39:05] [[32minfo[39m] [Retrieved all users successfully.]
-[18:35:58] [[32minfo[39m] [Retrieved messages successfully.]
-[18:36:00] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[18:36:01] [[31merror[39m] [Error in deleteMessage: mongoose is not defined]
-[18:43:52] [[32minfo[39m] [Retrieved all users successfully.]
-[18:43:57] [[32minfo[39m] [Retrieved all users successfully.]
-[18:44:03] [[32minfo[39m] [Retrieved messages successfully.]
-[18:44:05] [[31merror[39m] [Invalid message ID]
-[18:44:05] [[31merror[39m] [Invalid message ID]
-[18:44:05] [[31merror[39m] [Invalid message ID]
-[18:44:06] [[31merror[39m] [Invalid message ID]
-[18:44:06] [[31merror[39m] [Invalid message ID]
-[18:44:06] [[31merror[39m] [Invalid message ID]
-[18:44:06] [[31merror[39m] [Invalid message ID]
-[18:44:07] [[31merror[39m] [Invalid message ID]
-[18:44:20] [[32minfo[39m] [Retrieved messages successfully.]
-[18:44:21] [[32minfo[39m] [Retrieved messages successfully.]
-[18:44:22] [[32minfo[39m] [Retrieved messages successfully.]
-[18:44:23] [[32minfo[39m] [Retrieved messages successfully.]
-[18:44:26] [[31merror[39m] [Invalid message ID]
-[18:45:13] [[32minfo[39m] [Retrieved all users successfully.]
-[18:47:00] [[32minfo[39m] [Retrieved all users successfully.]
-[18:47:03] [[32minfo[39m] [Retrieved all users successfully.]
-[18:47:15] [[32minfo[39m] [Retrieved all users successfully.]
-[18:58:20] [[32minfo[39m] [Retrieved all users successfully.]
-[18:58:25] [[32minfo[39m] [Retrieved messages successfully.]
-[18:58:26] [[32minfo[39m] [Retrieved messages successfully.]
-[18:58:28] [[31merror[39m] [Invalid message ID]
-[18:58:29] [[31merror[39m] [Invalid message ID]
-[18:58:29] [[31merror[39m] [Invalid message ID]
-[18:58:29] [[31merror[39m] [Invalid message ID]
-[18:58:29] [[31merror[39m] [Invalid message ID]
-[18:59:27] [[31merror[39m] [Invalid message ID]
-[19:00:39] [[32minfo[39m] [Retrieved all users successfully.]
-[19:02:13] [[32minfo[39m] [Retrieved messages successfully.]
-[19:15:10] [[32minfo[39m] [User Rahul logged in successfully.]
-[19:15:10] [[32minfo[39m] [Retrieved all users successfully.]
-[19:15:16] [[32minfo[39m] [Retrieved messages successfully.]
-[19:16:19] [[32minfo[39m] [Retrieved all users successfully.]
-[19:16:25] [[32minfo[39m] [Retrieved messages successfully.]
-[19:17:37] [[32minfo[39m] [Retrieved messages successfully.]
-[19:17:43] [[32minfo[39m] [Retrieved messages successfully.]
-[19:17:46] [[32minfo[39m] [Message added successfully.]
-[19:18:27] [[32minfo[39m] [Retrieved messages successfully.]
-[19:18:33] [[32minfo[39m] [Retrieved all users successfully.]
-[19:18:34] [[32minfo[39m] [Retrieved messages successfully.]
-[19:18:36] [[31merror[39m] [Invalid message ID]
-[19:18:36] [[31merror[39m] [Invalid message ID]
-[19:18:37] [[31merror[39m] [Invalid message ID]
-[19:18:49] [[32minfo[39m] [Retrieved all users successfully.]
-[19:19:39] [[32minfo[39m] [Retrieved messages successfully.]
-[19:20:14] [[31merror[39m] [Invalid message ID]
-[19:39:16] [[32minfo[39m] [Retrieved all users successfully.]
-[19:39:18] [[32minfo[39m] [Retrieved messages successfully.]
-[19:39:20] [[32minfo[39m] [Message deleted successfully.]
-[19:40:17] [[32minfo[39m] [Retrieved all users successfully.]
-[19:40:18] [[32minfo[39m] [Retrieved messages successfully.]
-[19:40:50] [[32minfo[39m] [Retrieved all users successfully.]
-[19:40:51] [[32minfo[39m] [Retrieved messages successfully.]
-[19:41:01] [[32minfo[39m] [Retrieved all users successfully.]
-[19:41:02] [[32minfo[39m] [Retrieved messages successfully.]
-[19:43:27] [[32minfo[39m] [Retrieved all users successfully.]
-[19:43:29] [[32minfo[39m] [Retrieved messages successfully.]
-[19:43:33] [[32minfo[39m] [Retrieved messages successfully.]
-[19:44:28] [[32minfo[39m] [Retrieved messages successfully.]
-[19:44:31] [[32minfo[39m] [Message added successfully.]
-[19:44:33] [[32minfo[39m] [User with ID 6568c75d119a6646df249e36 logged out successfully.]
-[19:44:41] [[32minfo[39m] [User likith logged in successfully.]
-[19:44:41] [[32minfo[39m] [Retrieved all users successfully.]
-[19:44:44] [[32minfo[39m] [Retrieved messages successfully.]
-[19:49:19] [[32minfo[39m] [Retrieved all users successfully.]
-[19:51:31] [[32minfo[39m] [Retrieved messages successfully.]
-[19:51:40] [[32minfo[39m] [Message deleted successfully.]
-[19:52:19] [[32minfo[39m] [Message deleted successfully.]
-[19:54:13] [[32minfo[39m] [Retrieved all users successfully.]
-[19:54:14] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:16] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:17] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:19] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:23] [[32minfo[39m] [Message added successfully.]
-[19:54:26] [[32minfo[39m] [Message added successfully.]
-[19:54:29] [[32minfo[39m] [User with ID 65789344fae801b05701e38d logged out successfully.]
-[19:54:46] [[32minfo[39m] [User Rahul logged in successfully.]
-[19:54:46] [[32minfo[39m] [Retrieved all users successfully.]
-[19:54:49] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:53] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:57] [[32minfo[39m] [Retrieved messages successfully.]
-[19:54:58] [[32minfo[39m] [Retrieved messages successfully.]
-[19:55:01] [[32minfo[39m] [Retrieved messages successfully.]
-[19:55:01] [[32minfo[39m] [Retrieved messages successfully.]
-[19:55:03] [[32minfo[39m] [Retrieved messages successfully.]
-[19:55:11] [[32minfo[39m] [Retrieved messages successfully.]
-[19:55:13] [[32minfo[39m] [Message deleted successfully.]
-[11:27:49] [[32minfo[39m] [Retrieved all users successfully.]
-[12:10:02] [[32minfo[39m] [Retrieved all users successfully.]
-[12:10:08] [[32minfo[39m] [Retrieved all users successfully.]
-[12:10:09] [[32minfo[39m] [Retrieved all users successfully.]
-[12:12:45] [[32minfo[39m] [Retrieved all users successfully.]
-[12:12:56] [[32minfo[39m] [Retrieved messages successfully.]
-[12:13:02] [[32minfo[39m] [Retrieved messages successfully.]
-[12:13:03] [[32minfo[39m] [Retrieved messages successfully.]
-[12:13:06] [[32minfo[39m] [Message deleted successfully.]
-[16:00:44] [[32minfo[39m] [User Rahul logged in successfully.]
-[16:00:44] [[32minfo[39m] [Retrieved all users successfully.]
-[16:00:45] [[32minfo[39m] [Retrieved messages successfully.]
-[16:04:41] [[32minfo[39m] [Retrieved all users successfully.]
-[16:05:01] [[32minfo[39m] [User Rahul logged in successfully.]
-[16:05:01] [[32minfo[39m] [Retrieved all users successfully.]
-[16:05:03] [[32minfo[39m] [Retrieved messages successfully.]
+info: User Rahul logged in successfully. {"timestamp":"2023-12-14T12:26:45.943Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:26:46.083Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:26:49.312Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:26:54.710Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:12.835Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:15.622Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:27:17.307Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:21.100Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:24.187Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:25.955Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:27:27.508Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:31.427Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:27:32.794Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:39.102Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:45.494Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:27:48.429Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:27:58.572Z"}
+info: User with ID 6568c75d119a6646df249e36 logged out successfully. {"timestamp":"2023-12-14T12:28:00.641Z"}
+info: User Chakri logged in successfully. {"timestamp":"2023-12-14T12:28:07.798Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:28:07.882Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:28:11.245Z"}
+info: User with ID 656a0f9f5912d2916cba3742 logged out successfully. {"timestamp":"2023-12-14T12:28:12.537Z"}
+info: User Temp registered successfully. {"timestamp":"2023-12-14T12:28:35.609Z"}
+info: Avatar set successfully for user with ID: 657af4f3893560ce47d92bff {"timestamp":"2023-12-14T12:28:41.415Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:28:41.530Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:28:43.756Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:28:47.203Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:30:57.252Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:31:01.016Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:31:02.362Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:31:05.012Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:31:06.379Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:31:09.084Z"}
+info: User with ID 657af4f3893560ce47d92bff logged out successfully. {"timestamp":"2023-12-14T12:31:10.789Z"}
+info: User mine registered successfully. {"timestamp":"2023-12-14T12:31:29.362Z"}
+info: Avatar set successfully for user with ID: 657af5a1893560ce47d92c11 {"timestamp":"2023-12-14T12:31:34.925Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:31:35.086Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:31:36.856Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:37.894Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:39.393Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:40.208Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:41.459Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:42.858Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:44.314Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:32:45.686Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:32:52.188Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:32:55.771Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:33:07.352Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:33:09.136Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:33:09.316Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:34:05.564Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:34:10.377Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:34:12.988Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:34:14.680Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:34:16.459Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:34:20.863Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:34:23.378Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:34:24.408Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:34:26.616Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:34:43.365Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:34:46.002Z"}
+info: User with ID 657af5a1893560ce47d92c11 logged out successfully. {"timestamp":"2023-12-14T12:35:42.748Z"}
+info: User Chakri logged in successfully. {"timestamp":"2023-12-14T12:35:50.350Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:35:50.471Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:35:52.307Z"}
+info: Message added successfully. {"timestamp":"2023-12-14T12:35:55.023Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:35:57.370Z"}
+error: Error in deleteMessage: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Messages" {"timestamp":"2023-12-14T12:35:58.464Z"}
+info: Retrieved all users successfully. {"timestamp":"2023-12-14T12:43:20.198Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:43:23.197Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:44:18.699Z"}
+info: Retrieved messages successfully. {"timestamp":"2023-12-14T12:44:21.077Z"}
+info: Login failed for username: johndoe, incorrect username or password {"timestamp":"2023-12-14T13:02:49.279Z"}
+info: User Rahul logged in successfully. {"timestamp":"2023-12-14T13:02:49.465Z"}
+info: Login failed for username: johndoe, incorrect username or password {"timestamp":"2023-12-14T13:04:14.398Z"}
+info: User Rahul logged in successfully. {"timestamp":"2023-12-14T13:04:14.576Z"}

@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "client-install": "npm install --prefix client",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +18,10 @@
     "nodemon": "^2.0.15",
     "socket.io": "^4.4.1",
     "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
   }
 }

@@ -1,5 +1,5 @@
 ---
-- name: Deploy chat Application
+- name: Deploy chatting Application
   hosts: all
   vars:
     ansible_python_interpreter: /usr/bin/python3
